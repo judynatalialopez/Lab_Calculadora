@@ -12,7 +12,7 @@ interface Props {
 export const CalculatorButton = ({ label, color = colors.darkGray, doubleSize = false, blackText = false, onPress }: Props) => {
     return (
         <Pressable
-            onPress={onPress} // Pasar directamente la función onPress
+            onPress={onPress} 
             style={({ pressed }) => ({
                 ...styles.button,
                 backgroundColor: color,
