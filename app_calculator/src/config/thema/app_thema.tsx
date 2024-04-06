@@ -20,41 +20,41 @@ export const styles = StyleSheet.create({
     },
     mainResult: {
         color: colors.textPrimary,
-        fontSize: windowHeight * 0.1, // Utiliza una fracción del alto de la ventana
+        fontSize: windowHeight * 0.1, 
         textAlign: 'right',
-        marginBottom: windowHeight * 0.02, // Utiliza una fracción del alto de la ventana
+        marginBottom: windowHeight * 0.02, 
         fontWeight: '300',
     },
     subResult: {
         color: colors.textSecondary,
-        fontSize: windowHeight * 0.05, // Utiliza una fracción del alto de la ventana
+        fontSize: windowHeight * 0.05, 
         textAlign: 'right',
         fontWeight: '300',
     },
     calculatorContainer: {
         flex: 1,
-        padding: windowWidth * 0.05, // Utiliza una fracción del ancho de la ventana
+        padding: windowWidth * 0.05, 
         justifyContent: 'flex-end',
     },
     button: {
-        height: windowHeight * 0.1, // Utiliza una fracción del alto de la ventana
-        width: windowHeight * 0.1, // Utiliza una fracción del alto de la ventana
+        height: windowHeight * 0.1,
+        width: windowHeight * 0.1, 
         backgroundColor: 'red',
-        borderRadius: windowHeight * 0.1 / 2, // Utiliza una fracción del alto de la ventana
+        borderRadius: windowHeight * 0.1 / 2, 
         justifyContent: 'center',
-        marginHorizontal: windowWidth * 0.01, // Utiliza una fracción del ancho de la ventana
+        marginHorizontal: windowWidth * 0.01, 
     },
     buttonText: {
         textAlign: 'center',
-        padding: windowHeight * 0.025, // Utiliza una fracción del alto de la ventana
-        fontSize: windowHeight * 0.035, // Utiliza una fracción del alto de la ventana
+        padding: windowHeight * 0.025, 
+        fontSize: windowHeight * 0.035, 
         color: 'white',
-        fontWeight: 'bold', // Cambiado a negrita
+        fontWeight: 'bold', 
     },    
     row: {
         flexDirection: 'row',
         justifyContent: "center",
-        marginBottom: windowHeight * 0.020, // Utiliza una fracción del alto de la ventana
-        paddingHorizontal: windowWidth * 0.1, // Utiliza una fracción del ancho de la ventana
+        marginBottom: windowHeight * 0.020, 
+        paddingHorizontal: windowWidth * 0.1,
     }, 
 });
