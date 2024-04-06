@@ -39,11 +39,11 @@ enum Operator {
       let temporalNumber = number;
       if (number.includes('-')) {
         currentSign = '-';
-        temporalNumber = number.substring(1); // 88
+        temporalNumber = number.substring(1); 
       }
   
       if (temporalNumber.length > 1) {
-        return setNumber(currentSign + temporalNumber.slice(0, -1)); //
+        return setNumber(currentSign + temporalNumber.slice(0, -1)); 
       }
       setNumber('0');
     };
